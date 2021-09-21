@@ -1,11 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import DeviconPlainIcon from "react-devicons/devicon/plain";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <DeviconPlainIcon className="App-logo" size="100px" color="#61dafb" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
